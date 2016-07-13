@@ -138,8 +138,24 @@
 	margin: auto 15px auto 0;
 }
 
+.ke-bb{
+	border:2px solid #1886e3;
+	color:#1886e3;
+	padding:20px 30px;
+	font-size: 20px;
+	display:inline-block;
+	font-weight: bold;
+	width:220px;
+	text-align: center;
+}
 
-
+.ke_b2{
+	display:inline-block;
+	height:104px;
+	width:110px;
+	text-align: center;
+	vertical-align: middle;
+}
 
 
 
