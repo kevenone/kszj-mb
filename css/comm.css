@@ -127,6 +127,16 @@
 	color:#FFF;
 }
 
+/* head foot style end */
+
+.cover{
+	position:absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	color:#fff;
+	padding:15px 15px;
+	top: 22%;
+	margin: auto 15px auto 0;
+}
 
 
 
