@@ -138,25 +138,72 @@
 	margin: auto 15px auto 0;
 }
 
-.ke-bb{
-	border:2px solid #1886e3;
-	color:#1886e3;
+.ke_b{
+	border:2px solid #54CBED;
+	color:#54CBED;
 	padding:20px 30px;
 	font-size: 20px;
 	display:inline-block;
 	font-weight: bold;
-	width:220px;
 	text-align: center;
 }
 
 .ke_b2{
-	display:inline-block;
-	height:104px;
-	width:110px;
+	height:100px;
 	text-align: center;
-	vertical-align: middle;
+}
+.ke_b2 img{
+	margin:25px 0;
+}
+
+.ke_tp{
+	border:none;
 }
 
 
 
+/* cx横向滚动基本样式 */
+.cxscroll{}
+.cxscroll .box{overflow:hidden;width:1230px;}
+.cxscroll .list{overflow:hidden;width:99999px;}
+.cxscroll .list li{float:left;width:310px;list-style-type: none;}
+.cxscroll .list li img{ width:300px }
+.cxscroll .prev{}
+.cxscroll .next{}
 
+.ke_yh{
+	border:2px solid #e1e1e1;
+}
+.ke_yhh{
+	color:#1886e3;
+	font-size: 45px;
+}
+.ke_yhh2{
+	color:#898989;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.ke_yhpl{
+	background-color: #D9DDDE;
+	color:#000;
+	font-size: 20px;
+	line-height: 40px;
+	height:40px;
+	padding:0 15px;
+}
+.ke_yhpl span{
+	color:#000;
+	font-weight: bold;
+}
+
+.ke_gl{
+	background-color: #1886e3;
+	color:#fff
+}
+.ke_gl .caption{
+	color:#fff
+}
+.ke_gl .caption p a{
+	color:#fff
+}
