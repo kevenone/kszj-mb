@@ -165,7 +165,7 @@
 /* cx横向滚动基本样式 */
 .cxscroll{}
 .cxscroll .box{overflow:hidden;width:1230px;}
-.cxscroll .list{overflow:hidden;width:99999px;}
+.cxscroll .list{overflow:hidden;width:99999px;padding:0}
 .cxscroll .list li{float:left;width:310px;list-style-type: none;}
 .cxscroll .list li img{ width:300px }
 .cxscroll .prev{}
