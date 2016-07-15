@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>预约记录</title>
+    <title>fayy</title>
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/comm.css">
@@ -54,8 +54,8 @@
             <div class="navbar">
                 <div class="container-fluid">
                     <ul class="nav navbar-nav">
-                        <li class="dropdown open">
-                            <a href="#" class="dropdown-toggle menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                         智能家居系统 
                                         <img src="imgs/i_08.png" height="16" class="" alt=""> 
                                         <!-- <span class="caret"></span> -->
@@ -94,7 +94,7 @@
                             <a href="#">智家社群 <span class="glyphicon glyphicon-triangle-bottom org"></span></a>
                         </li>
                     </ul>
-                    <form class="form f1">
+                    <form class="form f1 hidden">
                         <h3 class="f1h">免费获取专业设计方案及报价</h3>
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="您的称呼：">
@@ -124,149 +124,148 @@
     </div>
     <!-- head end -->
     <!-- content -->
-    <!-- banner -->
+    <!-- banner 
     <div class="row">
         <img src="imgs/banner1.png" class="img-responsive" alt="Image">
     </div>
+    -->
     <br>
-    <!-- 预约记录 -->
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
-            <h3>预约记录 
-            <small class="pull-right"> 目前已有9999人申请成功 </small>
-            </h3>
+            <i class="glyphicon glyphicon-home"></i> <a href="">首页</a> > 工地直播
+        </div>
+    </div>
+    <br>
+    <!-- 工地直播列表 -->
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
+            <h4>状态：<a class="ke_active" href="">不限</a> <a href="">施工中</a> <a href="">已竣工</a> 
+                &nbsp;&nbsp; 类型：<a class="ke_active" href="">不限</a> <a href="">家庭影院</a> <a href="">智能家居</a>
+            </h4>
             <div class="clearfix"></div>
             <hr style="margin-top: 0">
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
-            <table class="table table-bordered table-hover">
-                <thead>
-                    <tr>
-                        <th>业主名</th>
-                        <th>地区</th>
-                        <th>数量</th>
-                        <th>时间</th>
-                    </tr>
-                </thead>
-                <tbody id="tscroll">
-                    <tr>
-                        <td>余先生111111111111</td>
-                        <td>南京市江宁区***************</td>
-                        <td>22</td>
-                        <td>2016-7-15</td>
-                    </tr>
-                    <tr>
-                        <td>余先生</td>
-                        <td>南京市江宁区***************</td>
-                        <td>22</td>
-                        <td>2016-7-15</td>
-                    </tr>
-                    <tr>
-                        <td>余先生</td>
-                        <td>南京市江宁区***************</td>
-                        <td>22</td>
-                        <td>2016-7-15</td>
-                    </tr>
-                    <tr>
-                        <td>余先生</td>
-                        <td>南京市江宁区***************</td>
-                        <td>22</td>
-                        <td>2016-7-15</td>
-                    </tr>
-                    <tr>
-                        <td>余先生</td>
-                        <td>南京市江宁区***************</td>
-                        <td>22</td>
-                        <td>2016-7-15</td>
-                    </tr>
-                    <tr>
-                        <td>余先生</td>
-                        <td>南京市江宁区***************</td>
-                        <td>22</td>
-                        <td>2016-7-15</td>
-                    </tr>
-                    <tr>
-                        <td>余先生</td>
-                        <td>南京市江宁区***************</td>
-                        <td>22</td>
-                        <td>2016-7-15</td>
-                    </tr>
-                    <tr>
-                        <td>余先生</td>
-                        <td>南京市江宁区***************</td>
-                        <td>22</td>
-                        <td>2016-7-15</td>
-                    </tr>
-                    <tr>
-                        <td>余先生</td>
-                        <td>南京市江宁区***************</td>
-                        <td>22</td>
-                        <td>2016-7-15</td>
-                    </tr>
-                    <tr>
-                        <td>余先生</td>
-                        <td>南京市江宁区***************</td>
-                        <td>22</td>
-                        <td>2016-7-15</td>
-                    </tr>
-                </tbody>
-            </table>
-            <script>
-                function sc(){
-                var container=document.getElementById("tscroll");
-                container.appendChild(container.firstChild);
-                }
-                setInterval("sc()",1000);
-              
-            </script>
-            
+            <div class="row ke_listc">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <img src="imgs/b1.jpg" class="img-responsive img-rounded" alt="Image">
+                    <div class="ke_jb"><img src="imgs/jb1.png" alt=""></div>
+                    <div class="ke_info">
+                        <span>程先生</span> <span>5居室</span> <span>215.00M <span class="ke_little">2</span> </span>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <img src="imgs/b1.jpg" class="img-responsive img-rounded" alt="Image">
+                    <div class="ke_jb"><img src="imgs/jb1.png" alt=""></div>
+                    <div class="ke_info">
+                        <span>程先生</span> <span>5居室</span> <span>215.00M <span class="ke_little">2</span> </span>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <img src="imgs/b2.jpg" class="img-responsive img-rounded" alt="Image">
+                    <div class="ke_jb"><img src="imgs/jb1.png" alt=""></div>
+                    <div class="ke_info">
+                        <span>程先生</span> <span>5居室</span> <span>215.00M <span class="ke_little">2</span> </span>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <img src="imgs/b1.jpg" class="img-responsive img-rounded" alt="Image">
+                    <div class="ke_jb"><img src="imgs/jb1.png" alt=""></div>
+                    <div class="ke_info">
+                        <span>程先生</span> <span>5居室</span> <span>215.00M <span class="ke_little">2</span> </span>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <img src="imgs/b2.jpg" class="img-responsive img-rounded" alt="Image">
+                    <div class="ke_jb"><img src="imgs/jb2.png" alt=""></div>
+                    <div class="ke_info">
+                        <span>程先生</span> <span>5居室</span> <span>215.00M <span class="ke_little">2</span> </span>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <img src="imgs/b1.jpg" class="img-responsive img-rounded" alt="Image">
+                    <div class="ke_jb"><img src="imgs/jb1.png" alt=""></div>
+                    <div class="ke_info">
+                        <span>程先生</span> <span>5居室</span> <span>215.00M <span class="ke_little">2</span> </span>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <img src="imgs/b2.jpg" class="img-responsive img-rounded" alt="Image">
+                    <div class="ke_jb"><img src="imgs/jb2.png" alt=""></div>
+                    <div class="ke_info">
+                        <span>程先生</span> <span>5居室</span> <span>215.00M <span class="ke_little">2</span> </span>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <img src="imgs/b1.jpg" class="img-responsive img-rounded" alt="Image">
+                    <div class="ke_jb"><img src="imgs/jb1.png" alt=""></div>
+                    <div class="ke_info">
+                        <span>程先生</span> <span>5居室</span> <span>215.00M <span class="ke_little">2</span> </span>
+                    </div>
+                </div>
+            </div>
         </div>
+        <br>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
+            <ul class="pagination">
+                <li><a href="#">&laquo;</a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&raquo;</a></li>
+            </ul>
+        </div>
+    </div>
     </div>
     <br>
     <!-- end content -->
     <br>
     <!-- foot -->
-    <div class="row">
-        <img src="imgs/foot.png" class="img-responsive" alt="Image">
-    </div>
-    <div class="row foot">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 footm">
-            <ul>
-                <li><a href="">帮助中心</a></li>
-                <li><a href="">服务指南</a></li>
-                <li><a href="">支付方式</a></li>
-                <li><a href="">服务方式</a></li>
-                <li>&nbsp;</li>
-            </ul>
-            <ul>
-                <li><a href="">服务支持</a></li>
-                <li><a href="">免费获取方案设计</a></li>
-                <li><a href="">电话预约</a></li>
-                <li><a href="">在线咨询预约</a></li>
-                <li><a href="">售后政策</a></li>
-            </ul>
-            <ul>
-                <li><a href="">线下体验</a></li>
-                <li><a href="">体验馆</a></li>
-                <li><a href="">服务网点</a></li>
-                <li><a href="">预约亲临到店服务</a></li>
-                <li><a href="">售后政策</a></li>
-            </ul>
-            <ul>
-                <li><a href="">关于我们</a></li>
-                <li><a href="">了解科尚智家</a></li>
-                <li><a href="">加入科尚智家</a></li>
-                <li><a href="">联系我们</a></li>
-                <li><a href="">新闻中心</a></li>
-            </ul>
-            <ul>
-                <li><a href="">关注我们</a></li>
-                <li><a href="">新浪微博</a></li>
-                <li><a href="">装修部落</a></li>
-                <li><a href="">官方微信</a></li>
-                <li>&nbsp;</li>
-            </ul>
-            <a href="" class="pull-right"><img src="imgs/i_86.png" class="img-responsive" alt="Image"></a>
+    <div class="container-fluid">
+        <div class="row">
+            <img src="imgs/foot.png" class="img-responsive" alt="Image">
+        </div>
+        <div class="row foot">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 footm">
+                <ul>
+                    <li><a href="">帮助中心</a></li>
+                    <li><a href="">服务指南</a></li>
+                    <li><a href="">支付方式</a></li>
+                    <li><a href="">服务方式</a></li>
+                    <li>&nbsp;</li>
+                </ul>
+                <ul>
+                    <li><a href="">服务支持</a></li>
+                    <li><a href="">免费获取方案设计</a></li>
+                    <li><a href="">电话预约</a></li>
+                    <li><a href="">在线咨询预约</a></li>
+                    <li><a href="">售后政策</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">线下体验</a></li>
+                    <li><a href="">体验馆</a></li>
+                    <li><a href="">服务网点</a></li>
+                    <li><a href="">预约亲临到店服务</a></li>
+                    <li><a href="">售后政策</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">关于我们</a></li>
+                    <li><a href="">了解科尚智家</a></li>
+                    <li><a href="">加入科尚智家</a></li>
+                    <li><a href="">联系我们</a></li>
+                    <li><a href="">新闻中心</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">关注我们</a></li>
+                    <li><a href="">新浪微博</a></li>
+                    <li><a href="">装修部落</a></li>
+                    <li><a href="">官方微信</a></li>
+                    <li>&nbsp;</li>
+                </ul>
+                <a href="" class="pull-right"><img src="imgs/i_86.png" class="img-responsive" alt="Image"></a>
+            </div>
         </div>
     </div>
     </div>
@@ -277,7 +276,6 @@
     <!-- cxscorll -->
     <script src="js/jquery.cxscroll.js"></script>
     <script src="js/all.js"></script>
-    
 </body>
 
 </html>
