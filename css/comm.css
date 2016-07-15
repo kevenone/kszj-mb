@@ -46,14 +46,15 @@
 	color:#fff;
 	padding:15px 30px !important;
 	font-weight: bold;
-	width:220px;
+	width:280px;
 	text-align: center;
 }
 .menu:visited{
 	color:#fff;
 }
 .menu2{
-	width:220px;
+	width:280px;
+	height:360px;
 	text-align: center;
 }
 .menu2 li a{
