@@ -329,3 +329,42 @@ small.pull-right{
 .ke_p{
 	line-height: 26px;
 }
+
+.ke_page{
+	background: linear-gradient(180deg, #FFF 0%,#e9f6ff 100%);
+	border:2px solid #CCC;
+}
+.ke_tj{
+	padding-left: 0;
+}
+.ke_tj li{
+	list-style-type: none;
+}
+.ke_tj li a{
+	color:#000;
+	font-size: 16px;
+	line-height: 26px;
+}
+.ke_yuan{
+	width:200px;
+	height:200px;
+	background-color: #1886e3 ;
+	border-radius: 100px;
+	margin: 0 auto;
+}
+.ke_yuan a{
+	color:#fff;
+}
+.ke_yuan i{
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 60px;
+	
+}
+
+
+
+
+
+
+
