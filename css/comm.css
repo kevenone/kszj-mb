@@ -331,7 +331,7 @@ small.pull-right{
 }
 
 .ke_page{
-	background: linear-gradient(180deg, #FFF 0%,#e9f6ff 100%);
+	/* background: linear-gradient(180deg, #FFF 0%,#e9f6ff 100%); */
 	border:2px solid #CCC;
 }
 .ke_tj{
@@ -361,6 +361,30 @@ small.pull-right{
 	line-height: 60px;
 	
 }
+.ke_scrollContent{
+	height:300px;
+	overflow-y: scroll;
+	border: 2px solid #ccc;
+	padding:10px;
+	position: relative;
+}
+.ke_scrollNav{
+	background-color: #5d819c;
+}
+.ke_scrollNav a{
+	color:#FFF;
+	font-weight: bold;
+}
+.ke_scrollNav li.active a{
+	background-color: #22415f;
+}
+.ke_scrollNav li a:hover{
+	background-color: #22415f;
+}
+.ke_scrollNav li.active a:hover{
+	background-color: #22415f;
+}
+
 
 
 
