@@ -60,6 +60,14 @@
 .menu2 li a{
 	display: inline-block;
 }
+@media (max-width: 1390px) {
+	.menu{
+	width:210px;
+	}
+	.menu2{
+	width:210px;
+	}
+}
 .org{
 	color:#f67e09;
 }
